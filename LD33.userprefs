@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MeshCombiner.cs">
+    <Files>
+      <File FileName="Assets/CreateBuilding.cs" Line="1" Column="1" />
+      <File FileName="Assets/MakeBridge.cs" Line="1" Column="1" />
+      <File FileName="Assets/MeshCombiner.cs" Line="13" Column="3" />
+      <File FileName="Assets/WalkOnWalls.cs" Line="1" Column="1" />
+      <File FileName="Assets/Grappler.cs" Line="1" Column="1" />
+      <File FileName="Assets/DrawLine.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/SpawnGrid.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
