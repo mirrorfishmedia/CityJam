@@ -6,10 +6,13 @@ using System.Collections;
 public class MeshCombiner : MonoBehaviour {
 
 	MeshCollider meshCollider;
+	public bool combineOnAwake = false;
 
 	void Awake() 
 	{
 		meshCollider = GetComponent<MeshCollider> ();
+		if (combineOnAwake)
+			Combine ();
 	}
 
 	public void Combine()
