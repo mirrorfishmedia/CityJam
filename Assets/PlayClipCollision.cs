@@ -11,6 +11,9 @@ public class PlayClipCollision : MonoBehaviour {
 
 	private Rigidbody rb;
 	private float distToGround;
+	private bool clipPlayed;
+	private bool atRest;
+
 
 	void Awake()
 	{
@@ -18,17 +21,26 @@ public class PlayClipCollision : MonoBehaviour {
 	}
 
 
-	void OnCollisionEnter()
+	void OnCollisionEnter(Collision other)
 	{
+		Debug.Log ("other " + other.gameObject);
+		atRest = false;
 		source.clip = hitClip;
 		source.Play ();
 	}
 
 	void Update()
 	{
+
 		if (Grounded ()) {
 			source2.clip = restClip;
-			source2.Play ();
+			if (!atRest)
+			{
+				source2.Play ();
+
+				atRest = true;
+			}
+
 			Grid.gameMan.tpReady = true;
 		} else {
 			Grid.gameMan.tpReady = false;
@@ -39,6 +51,7 @@ public class PlayClipCollision : MonoBehaviour {
 	{
 
 		bool grounded = rb.IsSleeping();
+
 		//Debug.Log ("Rb is grounded: " + grounded);
 		//grounded = Physics.Raycast(transform.position, -Vector3.up, distToGround + .1f);
 		return grounded;

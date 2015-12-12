@@ -5,6 +5,8 @@ public class DropTeleporter : MonoBehaviour {
 
 	public GameObject teleportCube;
 	public Transform cubeSpawnPoint;
+	public AudioSource source;
+	public AudioClip pickUpDroneClip;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +18,9 @@ public class DropTeleporter : MonoBehaviour {
 	{
 		if (Input.GetButtonDown ("DropCube")) {
 			teleportCube.transform.position = cubeSpawnPoint.position;
+			teleportCube.transform.rotation = Quaternion.identity;
+			source.clip = pickUpDroneClip;
+			source.Play();
 		}
 	}
 }
