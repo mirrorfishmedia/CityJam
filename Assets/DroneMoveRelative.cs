@@ -14,7 +14,7 @@ public class DroneMoveRelative : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 	
-		Debug.Log ("input get axis horizontal " + Input.GetAxis ("Horizontal"));
+		//Debug.Log ("input get axis horizontal " + Input.GetAxis ("Horizontal"));
 		transform.rotation = Camera.main.transform.rotation;
 		Vector3 horizontalMovement = Camera.main.transform.forward * (Input.GetAxis ("VerticalDrone") * horizontalSpeed);
 		Vector3 verticalMovement = Camera.main.transform.right * (Input.GetAxis ("HorizontalDrone") * horizontalSpeed);

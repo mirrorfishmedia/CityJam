@@ -57,6 +57,7 @@
      <Compile Include="Assets\GameMan.cs" />
      <Compile Include="Assets\GetMaterialColor.cs" />
      <Compile Include="Assets\Grappler.cs" />
+     <Compile Include="Assets\HeightToCutoff.cs" />
      <Compile Include="Assets\HoverAudio.cs" />
      <Compile Include="Assets\HoverMotor.cs" />
      <Compile Include="Assets\MakeBridge.cs" />
@@ -103,6 +104,7 @@
      <Compile Include="Assets\Third Party\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\Third Party\OVR\Scripts\Util\OVRTrackerBounds.cs" />
      <Compile Include="Assets\UIController.cs" />
+     <Compile Include="Assets\UIPositioner.cs" />
      <Compile Include="Assets\WalkOnWalls.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />

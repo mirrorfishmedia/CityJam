@@ -26,6 +26,7 @@ public class Teleport : MonoBehaviour {
 			//Debug.Log ("tp particles " + tpParticles.isPlaying);
 			animatorCanvas.SetTrigger("fade");
 			Grid.gameMan.AddJumps();
+			droneTransform.gameObject.SetActive(false);
 		}
 
 		if (Input.GetButtonDown ("Restart")) {

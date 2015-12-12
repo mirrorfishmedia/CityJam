@@ -17,6 +17,7 @@ public class DropTeleporter : MonoBehaviour {
 	void Update () 
 	{
 		if (Input.GetButtonDown ("DropCube")) {
+			teleportCube.SetActive(true);
 			teleportCube.transform.position = cubeSpawnPoint.position;
 			teleportCube.transform.rotation = Quaternion.identity;
 			source.clip = pickUpDroneClip;
