@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 593e9088086cd4a40a6648b9183b18b8
+guid: 046e6a267f5b82245b1d69f431116b1b
 timeCreated: 1439969538
 licenseType: Store
 AudioImporter:
@@ -13,6 +13,7 @@ AudioImporter:
     conversionMode: 0
   platformSettingOverrides: {}
   forceToMono: 0
+  normalize: 1
   preloadAudioData: 1
   loadInBackground: 0
   3D: 1

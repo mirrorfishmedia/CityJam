@@ -105,9 +105,18 @@ public class SpawnGrid : MonoBehaviour {
 			}
 		}
 
-		
+		StaticBatchingUtility.Combine (this.gameObject);
 		SpawnCoins ();
 	}
+
+//	private void StaticBatchBuildings()
+//	{
+//		foreach (Transform bldgTransform in bldgSpawns)
+//		{
+//			bldgTransform.SetParent(this.transform);
+//		}
+//
+//	}
 
 	private void SpawnCoins()
 	{
