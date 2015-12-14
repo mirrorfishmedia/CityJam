@@ -61,6 +61,8 @@ public class CreateBuilding : MonoBehaviour {
 				
 				verticalPosition = y * (spacing * toInstantiate.transform.localScale.y) + transform.position.y + Random.Range (0, verticalPosNoiseRange);
 				GameObject instance = Instantiate (toInstantiate, new Vector3 (transform.position.x + positionNoise, verticalPosition, transform.position.z + positionNoise), Quaternion.identity) as GameObject;
+				//DeparentDecoration deparenter = instance.GetComponent<DeparentDecoration>();
+				//deparenter.DeparentChild();
 				instance.transform.SetParent (this.transform);
 			}
 

@@ -5,7 +5,7 @@ public class Teleport : MonoBehaviour {
 
 	public Transform droneTransform;
 	public AudioSource tpSource;
-	public Animator animatorCanvas;
+	//public Animator animatorCanvas;
 	//public ParticleSystem tpParticles;
 	public GameObject tpParticlePf;
 	public Transform particleSpawnPoint;
@@ -24,7 +24,7 @@ public class Teleport : MonoBehaviour {
 			//tpParticles.Play();
 			Instantiate(tpParticlePf, particleSpawnPoint.position, transform.rotation);
 			//Debug.Log ("tp particles " + tpParticles.isPlaying);
-			animatorCanvas.SetTrigger("fade");
+			//animatorCanvas.SetTrigger("fade");
 			Grid.gameMan.AddJumps();
 			droneTransform.gameObject.SetActive(false);
 		}

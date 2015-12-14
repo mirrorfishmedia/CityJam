@@ -8,6 +8,7 @@ public class GameMan : MonoBehaviour {
 	public int numJumps;
 	public int maxJumps = 20;
 	public bool tpReady;
+	public UIController uiController;
 
 	// Use this for initialization
 	void Start () {
@@ -28,13 +29,24 @@ public class GameMan : MonoBehaviour {
 	public void AddCoins()
 	{
 		numCoins++;
+		uiController.UpdateUI ();
+		CheckSuccess ();
 	}
 
 	public void AddJumps()
 	{
 		numJumps++;
-		if (numJumps > maxJumps && numCoins < maxCoins)
-			Restart ();
+		uiController.UpdateUI ();
+		//if (numJumps > maxJumps && numCoins < maxCoins)
+			//Restart ();
+	}
+
+	private void CheckSuccess()
+	{
+		if (numCoins == maxCoins) 
+		{
+			uiController.SuccessMessage();
+		}
 	}
 
 	public void Restart()

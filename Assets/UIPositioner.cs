@@ -4,7 +4,7 @@ using System.Collections;
 public class UIPositioner : MonoBehaviour {
 
 	public Transform playerController;
-	private Vector3 offset = new Vector3 (1f, .2f, .3f);
+	private Vector3 offset = new Vector3 (.55f, 0f, .4f);
 
 	// Use this for initialization
 	void Start () {
