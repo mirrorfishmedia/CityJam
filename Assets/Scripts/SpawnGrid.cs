@@ -19,7 +19,6 @@ public class SpawnGrid : MonoBehaviour {
 	public float verticalOffsetRange = 0;
 	public Material combinedMaterial;
 	public GameObject coinPf;
-	public int coinsToSpawn = 6;
 	private List<Transform> bldgSpawns = new List<Transform>();
 
 
@@ -122,7 +121,7 @@ public class SpawnGrid : MonoBehaviour {
 	{
 		for (int i = 0; i < Grid.gameMan.maxCoins; i++) 
 		{
-			int randPick = Random.Range (0, bldgSpawns.Count);
+			int randPick = Random.Range (10, bldgSpawns.Count);
 			Vector3 randBldgPos = bldgSpawns[randPick].position;
 			Vector3 offset = new Vector3 (0, 500, 0);
 

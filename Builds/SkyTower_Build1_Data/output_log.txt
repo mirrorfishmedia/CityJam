@@ -1,0 +1,1834 @@
+Mono path[0] = 'C:/Users/Matthew/Desktop/MFM/CityJam/Builds/SkyTower_Build1_Data/Managed'
+Mono path[1] = 'C:/Users/Matthew/Desktop/MFM/CityJam/Builds/SkyTower_Build1_Data/Mono'
+Mono config path = 'C:/Users/Matthew/Desktop/MFM/CityJam/Builds/SkyTower_Build1_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Matthew/Desktop/MFM/CityJam/Builds/SkyTower_Build1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55387
+Multi-casting "[IP] 10.0.1.67 [Port] 55387 [Flags] 3 [Guid] 1688979767 [EditorId] 60571050 [Version] 1048832 [Id] WindowsPlayer(Puget-137649) [Debug] 0" to [225.0.0.222:54997]...
+Waiting for connection from host on [10.0.1.67:55387]...
+PlayerConnection accepted from [10.0.1.67] handle:0x1f4
+PlayerConnection already initialized - listening to [10.0.1.67:55387]
+Initialize engine version: 5.1.3p2 (bebcb01d8ab6)
+[VRDevice] Successfully created device oculus.
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 (ID=0x13c0)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.147 seconds
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\System.dll (this message is harmless)
+[CAPI] LibOVR module is located at C:\Windows\SYSTEM32\LibOVRRT32_0_6.dll
+
+ 
+(Filename: C:/buildslave/unity/build/Runtime/VR/Oculus/VRDeviceOculus.cpp Line: 46)
+
+Unity v5.1.3p2, Oculus Utilities v0.1.3.0, OVRPlugin v0.1.0.0.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+OVRManager:Awake() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\Third Party\OVR\Scripts\OVRManager.cs:314)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/Third Party/OVR/Scripts/OVRManager.cs Line: 314)
+
+Creating volume controller...
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+OVRManager:InitVolumeController() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\Third Party\OVR\Scripts\OVRManager.cs:430)
+OVRManager:Awake() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\Third Party\OVR\Scripts\OVRManager.cs:345)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/Third Party/OVR/Scripts/OVRManager.cs Line: 430)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Combine mesh instance 0 is null.
+UnityEngine.Mesh:CombineMeshes(CombineInstance[], Boolean, Boolean)
+UnityEngine.Mesh:CombineMeshes(CombineInstance[]) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\GraphicsBindings.gen.cs:874)
+MeshCombiner:Combine() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\MeshCombiner.cs:30)
+CreateBuilding:GridLoop() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:69)
+CreateBuilding:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\CreateBuilding.cs:49)
+
+[C:/buildslave/unity/build/Runtime/Graphics/Mesh/MeshCombiner.cpp line 555] 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/GraphicsBindings.gen.cs Line: 874)
+
+Couldn't find an explicitly transparent version of shader 'Legacy Shaders/Reflective/Bumped Specular' so fading may not work. If the shader does support transparency then this warning can be avoided by enabling the 'Shaders Already Handle Transparency' option.
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogWarning(Object)
+MeshExploder:Prepare(Mesh, Boolean) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\Mesh Explosion\MeshExploder.cs:341)
+MeshExploder:Start() (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\Mesh Explosion\MeshExploder.cs:76)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/Mesh Explosion/MeshExploder.cs Line: 341)
+
+other Ground (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\UnityScript.Lang.dll (this message is harmless)
+Platform assembly: C:\Users\Matthew\Desktop\MFM\CityJam\Builds\SkyTower_Build1_Data\Managed\Boo.Lang.dll (this message is harmless)
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 1(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other VoxelBuildingCreator 2(Clone) (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+other Ground (UnityEngine.GameObject)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayClipCollision:OnCollisionEnter(Collision) (at C:\Users\Matthew\Desktop\MFM\CityJam\Assets\PlayClipCollision.cs:26)
+ 
+(Filename: C:/Users/Matthew/Desktop/MFM/CityJam/Assets/PlayClipCollision.cs Line: 26)
+
+Waiting for finish
